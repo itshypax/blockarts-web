@@ -7,19 +7,19 @@
         <div class="footer-grid-item">
             <h2>Nützliche Links</h2>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">Über uns</a></li>
-                <li><a href="/contact">Kontakt</a></li>
+                <li><a href="/">Start</a></li>
+                <li><a href="/team">Team</a></li>
+                <li><a href="#">Kontakt</a></li>
                 <li><a href="/imprint">Impressum</a></li>
-                <li><a href="/privacy">Datenschutz</a></li>
+                <li><a href="#">Datenschutz</a></li>
             </ul>
         </div>
         <div class="footer-grid-item">
             <h2>Social Media</h2>
             <ul>
-                <li><a href="/">YouTube</a></li>
-                <li><a href="/about">Twitter</a></li>
-                <li><a href="/contact">Facebook</a></li>
+                <li><a href="#">YouTube</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
             </ul>
         </div>
         <div class="footer-grid-item" id="about">
