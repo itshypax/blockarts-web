@@ -1,3 +1,4 @@
+<meta name="theme-color" content="#f72331">
 <meta property="og:site_name" content="Blockarts.de">
 <meta property="og:url" content="https://blockarts.de/">
 <meta property="og:title" content="Blockarts 🔨">
