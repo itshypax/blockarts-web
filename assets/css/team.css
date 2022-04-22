@@ -1,0 +1,82 @@
+.team-grid-container {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 50px;
+    padding: 10px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.team-grid-item {
+    /* background-color: var(--ba-bg-2); */
+    background: linear-gradient(to right bottom, var(--ba-bg-2) 0%, var(--ba-border-1) 100%);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid var(--ba-border-1);
+}
+
+.team-grid-item:hover {
+    transform: scale(1.1);
+}
+
+.team-grid-item h2 {
+    letter-spacing: .05em;
+    margin-top: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: normal;
+    color: var(--ba-1)
+}
+
+.team-grid-item p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 300;
+    font-style: normal;
+    text-align: justify;
+}
+
+@media screen and (min-width: 840px) {
+    .team-grid-container#management-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .team-grid-container#creative-container, .team-grid-container#builder-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .team-grid-item {
+        margin: 15px;
+    }
+}
+
+h1#management {
+    margin-top: 100px;
+}
+
+p.team-role {
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    text-align: center;
+    margin-top: -18px;
+}
+
+ul.socials {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 0
+}
+
+ul.socials li {
+    margin: 0 10px;
+}
+
+ul.socials i {
+    font-size: 20px;
+}
