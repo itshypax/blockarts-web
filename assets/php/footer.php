@@ -2,7 +2,7 @@
     <div class="footer-grid-container">
         <div class="footer-grid-item" id="copyright">
             <img src="/assets/img/svg/ba_white.svg" alt="Blockarts.de Logo" height="64px" with="auto">
-            <p>&copy; <?php echo date('Y'); ?> <a href="/">blockarts.de</a></p>
+            <p>&copy; <?php echo date('Y'); ?> <a href="/">blockarts.de</a><br/>Code by <a style="text-decoration:none;" href="https://hypax.wtf">hypax.wtf</a></p>
         </div>
         <div class="footer-grid-item">
             <h2>Nützliche Links</h2>
