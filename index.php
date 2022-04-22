@@ -15,13 +15,15 @@
     <link href="/assets/fontawesome/css/all.css" rel="stylesheet">
     <!-- Include Berlin font -->
     <link href="/assets/fonts/berlin/stylesheet.css" rel="stylesheet">
+    <!-- Include Roboto font -->
+    <link href="/assets/fonts/roboto/stylesheet.css" rel="stylesheet">
 </head>
 <body>
     <!-- include stickyScroll.js -->
     <?php include 'assets/php/navigation.php'; ?>
     <div class="main">
         <div class="box bord">
-            <img src="/assets/img/mc-demo.webp" width="100%" draggable="false" (dragstart)="false;" class="no-drag" style="height:100%;" alt="Minecraft Screenshot">
+            <img src="/assets/img/mc-demo.webp" width="100%" draggable="false" (dragstart)="false;" oncontextmenu="return false;" class="no-drag" style="height:100vh;width:100vw;" alt="Minecraft Screenshot">
         </div>
         <div class="centered begin-text">
             <h1>Blockarts.de</h1>
